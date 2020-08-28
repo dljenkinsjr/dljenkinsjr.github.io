@@ -1,0 +1,207 @@
+html {
+scroll-behavior: smooth;
+}
+
+body{
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+text-align: left;
+background-color: #fff;
+}
+
+* {
+box-sizing: border-box;
+}
+
+
+/* ---- NavBar ------ */
+
+.top{
+float: left;
+font-weight: 500;
+padding-left: 2em;
+}
+
+.navbar{
+background-color: #fff;
+text-align: right;
+padding: .75em;
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 99;
+}
+        
+}
+    
+.navbar ul{
+list-style-type: none;
+        
+}
+
+.navbar li{
+
+display:inline-block;
+padding-right: 2em;
+        
+}
+    
+.navbar a{
+text-decoration: none;
+color: #000;
+font-weight: 500;
+float: right;
+font-size: 11pt;
+} 
+ 
+.navbar a:hover{
+text-decoration: underline;
+}
+
+/* ---- Header ------ */
+  
+header{
+text-align: center;
+padding-top: 10em;
+}
+
+.header-text{
+font-weight: 400;
+font-size: 4em;
+}
+
+.logo{
+margin-top: -50px;
+}
+
+
+/* ---- Main ------ */
+
+main{
+max-width: 1600px;
+margin: auto;
+padding-left: 3em;
+padding-right: 3em;
+    
+    
+}
+
+.main-text{
+font-size: 2em;
+font-weight: 400;
+}
+
+main a{
+text-decoration: none;
+color: #000;
+}
+
+main a:hover{
+text-decoration: underline;
+}
+
+
+/* ---- Footer ------ */
+
+footer{
+clear: both;
+text-align: center;
+}
+
+footer ul{
+list-style-type: none;
+margin-left: -5.45em;        
+}
+
+footer li{
+display:inline-block;
+}
+    
+footer a{
+text-decoration: none;
+color: #000;
+margin-left: 3em;
+} 
+
+footer a:hover{
+text-decoration: underline;
+}
+
+/* ----- Other ---- */
+
+.small-text{
+font-weight: 700;
+color: #000;
+}
+
+#about{
+padding-top: 13em;    
+}
+
+#work{
+padding-top: 13em;    
+}
+
+#contact{
+padding-top: 9em;
+padding-bottom: 3em;
+}
+/* ---- Overlay ----- */
+
+
+/* Gallery */
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 33%;
+ text-align: center;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+
+/* ------ Responsive Design --- */
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+    
+
+
+
+
