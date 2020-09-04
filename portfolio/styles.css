@@ -5,14 +5,18 @@ scroll-behavior: smooth;
 body{
 margin: 0;
 padding: 0;
-font-family: 'Roboto', sans-serif;
+font-family: 'Quicksand', sans-serif;
 text-align: left;
-background-color: #fff;
+background-image: url(images/background.png);
+background-repeat: no-repeat;
+background-color: #5CD6C8;
+color: #000;
 }
 
 * {
 box-sizing: border-box;
 }
+
 
 
 /* ---- NavBar ------ */
@@ -24,7 +28,7 @@ padding-left: 2em;
 }
 
 .navbar{
-background-color: #fff;
+background-color: #FEF4D2;
 text-align: right;
 padding: .75em;
 overflow: hidden;
@@ -72,9 +76,6 @@ font-weight: 400;
 font-size: 4em;
 }
 
-.logo{
-margin-top: -50px;
-}
 
 
 /* ---- Main ------ */
@@ -100,6 +101,25 @@ color: #000;
 
 main a:hover{
 text-decoration: underline;
+}
+
+.skills-text{
+text-align: center;
+}
+
+.space-col{
+padding: 8px;
+float: left;
+width: 33%;
+}
+
+.skills-style{
+padding: 20px;
+background-color: #fff;
+}
+
+.clear{
+clear: both;
 }
 
 
@@ -141,11 +161,11 @@ padding-top: 13em;
 }
 
 #work{
-padding-top: 13em;    
+padding-top: 7em;    
 }
 
 #contact{
-padding-top: 9em;
+padding-top: 5em;
 padding-bottom: 3em;
 }
 /* ---- Overlay ----- */
@@ -179,7 +199,7 @@ padding-bottom: 3em;
 
 
 .content {
-  background-color: white;
+  background-color: #fff;
   padding: 10px;
 }
 
@@ -191,6 +211,10 @@ padding-bottom: 3em;
   .column {
     width: 50%;
   }
+    
+    .space-col{
+    width: 50%;
+    }
 }
 
 
@@ -198,6 +222,13 @@ padding-bottom: 3em;
   .column {
     width: 100%;
   }
+    
+  .space-col{
+    width: 100%;
+    }
+    
+
+
 }
 
     
