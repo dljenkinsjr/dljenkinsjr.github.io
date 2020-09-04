@@ -7,8 +7,9 @@ margin: 0;
 padding: 0;
 font-family: 'Quicksand', sans-serif;
 text-align: left;
-background: rgb(254,244,210);
-background: linear-gradient(180deg, rgba(254,244,210,1) 0%, rgba(92,214,200,1) 100%);
+background-image: url(images/background.png);
+background-repeat: no-repeat;
+background-color: #5CD6C8;
 color: #000;
 }
 
