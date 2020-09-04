@@ -228,14 +228,14 @@ padding-bottom: 3em;
     }
     
     .navbar a{
-text-decoration: none;
-color: #000;
-font-weight: 500;
-float: right;
-font-size: 10pt;
-} 
+    font-size: 10pt;
+    } 
  
-    
+    .navbar li{
+    display:inline-block;
+    padding-right: 1em;
+        
+    }
 
 
 }
