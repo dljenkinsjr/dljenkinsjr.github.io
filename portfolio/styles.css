@@ -24,7 +24,7 @@ box-sizing: border-box;
 .top{
 float: left;
 font-weight: 500;
-padding-left: 2em;
+padding-left: .5em;
 }
 
 .navbar{
@@ -203,6 +203,55 @@ padding-bottom: 3em;
   padding: 10px;
 }
 
+/* --------- Gallery ------------- */
+
+.gallery {
+  width: 75%;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  display: block;
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  width: 250px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(2.0,2.0);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+/* ---------- Video ----------- */
+
+video{
+  padding: 5px;
+}
+
+
 
 
 /* ------ Responsive Design --- */
@@ -215,6 +264,17 @@ padding-bottom: 3em;
     .space-col{
     width: 50%;
     }
+
+
+    .navbar a{
+      font-size: 10pt;
+    } 
+   
+    .navbar li{
+      display:inline-block;
+      padding-right: 1em;
+          
+    }
 }
 
 
@@ -225,16 +285,6 @@ padding-bottom: 3em;
     
   .space-col{
     width: 100%;
-    }
-    
-    .navbar a{
-    font-size: 10pt;
-    } 
- 
-    .navbar li{
-    display:inline-block;
-    padding-right: 1em;
-        
     }
 
 
