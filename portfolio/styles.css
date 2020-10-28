@@ -221,7 +221,7 @@ padding-bottom: 3em;
 }
 
 .gallery > div > img {
-  width: 250px;
+  width: 235px;
   transition: .1s transform;
   transform: translateZ(0); /* hack */
 }
@@ -231,7 +231,7 @@ padding-bottom: 3em;
 }
 
 .gallery > div:hover > img {
-  transform: scale(2.0,2.0);
+  transform: scale(1.65,1.65);
   transition: .3s transform;
 }
 
