@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 ` <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   
 
 </head>
@@ -140,37 +141,33 @@ In 2016 I was able to get a Certification of Completion from College of the Cany
  <br>
   
   <h5 class="small-text">Diagrams</h5>
-  
-  <div class="gallery cf">
-      <div>
-        <img src="./nosql-data-diagrams/jenkins-1.4.png" />
-      </div>
-      <div>
-          <img src="./nosql-data-diagrams/jenkins-1.4a.png" />
-      </div>
-      <div>
-          <img src="./nosql-data-diagrams/jenkins-1.4b.png" />
-      </div>
-       <div>
-        <img src="./nosql-data-diagrams/jenkins-1.4c.png" />
-      </div>
-    </div>
-    <br>
-    <br>
-    <div class="gallery cf">
-      <div>
-        <img src="./nosql-data-diagrams/jenkins-2.2.png" />
-      </div>
-      <div>
-          <img src="./nosql-data-diagrams/jenkins-2.2a.png" />
-      </div>
-      <div>
-          <img src="./nosql-data-diagrams/jenkins-2.3.png" />
-      </div>
-       <div>
-        <img src="./nosql-data-diagrams/jenkins-2.3a.png" />
-      </div>
-    </div>
+<!-- Trigger the Modal -->
+<img class="myImg" src="nosql-data-diagrams/jenkins-1.4.png" alt="Assignment-1.4" width="300" height="250">
+<img class="myImg" src="nosql-data-diagrams/jenkins-1.4a.png" alt="Assignment-1.4" width="300" height="250">
+<img class="myImg" src="nosql-data-diagrams/jenkins-1.4b.png" alt="Assignment-1.4" width="300" height="250">
+<img class="myImg" src="nosql-data-diagrams/jenkins-1.4c.png" alt="Assignment-1.4" width="300" height="250">
+<br>
+<img class="myImg" src="nosql-data-diagrams/jenkins-2.2.png" alt="Assignment-2.2" width="300" height="250">
+<img class="myImg" src="nosql-data-diagrams/jenkins-2.2a.png" alt="Assignment-2.2" width="300" height="250">
+<img class="myImg" src="nosql-data-diagrams/jenkins-2.3.png" alt="Assignment-2.3" width="300" height="250">
+<img class="myImg" src="nosql-data-diagrams/jenkins-2.3a.png" alt="Assignment-2.3" width="300" height="250">
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+<br>
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+<script src="modal.js"></script>
 
 <!-- END MAIN -->       
 </main>
